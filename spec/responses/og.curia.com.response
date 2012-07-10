@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Date: Mon, 30 May 2011 09:52:44 GMT
+Server: PWS/1.7.2.3
+X-Px: ms mad-agg-n11 ( mad-agg-n12), rf-ms mad-agg-n12 ( origin>CONN)
+Cache-Control: max-age=600
+Expires: Mon, 30 May 2011 10:02:45 GMT
+Age: 0
+Content-Length: 38752
+Content-Type: text/html; charset=utf-8
+Last-Modified: Mon, 30 May 2011 00:36:13 GMT
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Curia</title>
+    <meta property="og:description" content="Sample og descripion.">
+  <body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </body>
+</html>

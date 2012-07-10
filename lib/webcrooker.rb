@@ -1,5 +1,10 @@
-require "webcrooker/version"
+require 'webcrooker/version'
+require 'webcrooker/crooker'
 
 module Webcrooker
-  # Your code goes here...
+  class << self
+    def new(url)
+      Crooker.new(url)
+    end
+  end
 end

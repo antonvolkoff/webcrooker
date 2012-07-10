@@ -4,8 +4,8 @@ require File.expand_path('../lib/webcrooker/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Anton Volkov"]
   gem.email         = ["choixer@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = "Gem for scraping data from websites"
+  gem.summary       = ""
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
@@ -14,4 +14,9 @@ Gem::Specification.new do |gem|
   gem.name          = "webcrooker"
   gem.require_paths = ["lib"]
   gem.version       = Webcrooker::VERSION
+
+  gem.add_dependency 'nokogiri', '~> 1.5'
+  
+  gem.add_development_dependency 'rspec'
+  gem.add_development_dependency 'fakeweb'
 end
